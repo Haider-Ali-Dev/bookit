@@ -1,7 +1,0 @@
-POST http://localhost:8000/bookmark-add
-
-{
-    "email": "ali@gmail.com",
-    "bookmark_name": "Youtube",
-    "bookmark_url": "https://www.youtube.com/"
-}
