@@ -1,8 +1,5 @@
 use serde::Serialize;
 
-
-
-
 #[derive(Debug, thiserror::Error, Serialize)]
 pub enum ApiError {
     #[error("User not found")]
@@ -12,5 +9,5 @@ pub enum ApiError {
     #[error("Wrong Credentials")]
     WrongCredentials,
     #[error("Bookmarks not found in the database")]
-    NoBookmarksInDatabase
+    NoBookmarksInDatabase,
 }
